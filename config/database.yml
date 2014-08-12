@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: congress_rater_production
-  username: congress_rater
-  password: <%= ENV['CONGRESS_RATER_DATABASE_PASSWORD'] %>
+  username:
+  password:

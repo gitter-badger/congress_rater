@@ -1,28 +1,37 @@
-== README
+As a user, I want to be able to visit a page with a list of all
+congress men and women with their name, position, and party.
+  # I should be able to navigate to a page with a list of all congress.
+  # I should be able to view their name, position, and party.
+  # Their names should be a link to their personal page.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+As a user, I want to be able to visit a congress person's personal page with their
+information on it.
+  # I should be able to navigate to a congress personal page.
+  # The page should have all basic information: name, website, position, party, etc.
 
-Things you may want to cover:
+As a user I want to be able to rate a congress official on a scale that is to be determinded.
+  # On the congress officials personal page I should be able to rate the person
+  #  based on my opinion of how well they are doing their job.
+  # I should be able to see the current rating for said offical and it should update when I
+  #  add my rating.
 
-* Ruby version
+As a user I should be able to change my rating if I feel the congress official is doing better or worse.
+  # I should be able to go to the same place I added my initial rating and be able ot update it.
+  # The update should be imediate and I should be able to see the change.
 
-* System dependencies
+As a user I want to be able to write comments on congress official's personal page in order to express my opinion on actions that said official has been a part of and to inform others.
+  # On the congress officials personal page I should be able to view a list of all past comments made.
+  # There should be a form in which I can fill out a comment to be displayed on the officials personal page.
 
-* Configuration
+As a user I want to be able to update my comments incase I miss spell something or want to change my comment.
+  # On my original comment I should be able to find a button that says update.
+  # When I click on this button I should be able to make changes to my comment and re-submit it.
 
-* Database creation
+As a user I should be able to delete my comment if i no longer want to display it.
+  # On my original comment I should be able to find a button that says delete.
+  # If I click on it the comment should be deleted from the page.
 
-* Database initialization
+As a user I want to be able to upvote the other comments on the page.
+  # I should be able to either upvote or downvote comments that are made.
+  # I should be able to view a comments rating and sort by that rating.
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
